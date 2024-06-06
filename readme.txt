@@ -19,6 +19,9 @@ from socket import *
 import struct
 import time
 
+client按提示输入SERVER_IP、SERVER_PORT、PACKET_NUM
+server修改常量SERVER_IP为guest的ip
+
 3. Running
 python UDPserver.py(guest os)
 python UDPclient.py(host os)
